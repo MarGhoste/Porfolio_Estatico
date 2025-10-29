@@ -1,0 +1,44 @@
+/* -- styles.css -- */
+
+body {
+    /* Define el tipo de letra para toda la página */
+    font-family: Arial, sans-serif;
+    /* Color de fondo suave para el cuerpo */
+    background-color: #f4f4f9; 
+    /* Margen exterior cero */
+    margin: 0; 
+    /* Espacio interior de 20px */
+    padding: 20px;
+}
+
+h1 {
+    /* Color de texto principal */
+    color: #333; 
+    /* Centrar el texto */
+    text-align: center;
+    /* Borde inferior para separar */
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.contenedor {
+    /* Ancho máximo del contenido */
+    max-width: 800px;
+    /* Centrar el contenedor en la página */
+    margin: 30px auto; 
+    /* Color de fondo del contenedor */
+    background-color: #fff;
+    /* Borde redondeado */
+    border-radius: 8px;
+    /* Sombra sutil */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    /* Espacio interior */
+    padding: 20px;
+}
+
+p {
+    /* Color de texto para párrafos */
+    color: #555;
+    /* Altura de línea para mejor lectura */
+    line-height: 1.6;
+}
