@@ -1,156 +1,261 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detalle del Proyecto | [Nombre del Proyecto]</title>
-    <link rel="icon" type="image/png" href="img/backend.png">
+    <link rel="icon" type="image/png" href="img/backend.png" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    </head>
-<body class="bg-gray-900 min-h-screen">
-
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+  </head>
+  <body class="bg-gray-900 min-h-screen">
     <div class="container mx-auto px-4 py-16 text-white bg-gray-900">
+      <div class="mb-10 border-b border-gray-700 pb-4">
+        <a
+          href="index.html"
+          class="text-teal-400 hover:text-teal-300 transition duration-150 flex items-center mb-4"
+        >
+          <svg
+            class="w-4 h-4 mr-2"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M10 19l-7-7m0 0l7-7m-7 7h18"
+            ></path>
+          </svg>
+          Volver al Portafolio
+        </a>
+        <h1 class="text-5xl font-extrabold text-white">
+          Plataforma de E-Commerce para Pymes
+        </h1>
+      </div>
 
-        <div class="mb-10 border-b border-gray-700 pb-4">
-            <a href="index.html"
-                class="text-teal-400 hover:text-teal-300 transition duration-150 flex items-center mb-4">
-                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
-                </svg>
-                Volver al Portafolio
-            </a>
-            <h1 class="text-5xl font-extrabold text-white">Plataforma de E-Commerce para Pymes</h1>
+      <img
+        src="img/proyecto4/captura4.jpg"
+        alt="Miniatura de Plataforma de E-Commerce para Pymes"
+        class="w-full h-96 object-cover rounded-xl shadow-2xl mb-12"
+      />
+
+      <div
+        class="flex flex-wrap justify-between items-start mb-12 border-b border-gray-800 pb-6"
+      >
+        <div class="mb-6 md:mb-0">
+          <h3 class="text-lg font-semibold text-gray-400 mb-2">
+            Tecnologías Usadas:
+          </h3>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="bg-indigo-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md"
+            >
+              Laravel
+            </span>
+            <span
+              class="bg-indigo-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md"
+            >
+              Vue.js
+            </span>
+            <span
+              class="bg-indigo-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md"
+            >
+              Tailwind CSS
+            </span>
+          </div>
         </div>
 
-       <img src="img/proyecto4/captura4.jpg"
-            alt="Miniatura de Plataforma de E-Commerce para Pymes"
-            class="w-full h-96 object-cover rounded-xl shadow-2xl mb-12">
+        <div class="flex gap-4">
+          <a
+            href="https://github.com/MarGhoste/project-repo"
+            target="_blank"
+            class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg transition duration-200 shadow-lg flex items-center"
+          >
+            <svg
+              class="w-5 h-5 mr-2"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 0c-6.626 0-12 5.373-12 12s5.373 12 12 12c5.302 0 9.729-3.914 11-9h-2c-1.161 3.42-4.067 6-8 6-4.962 0-9-4.038-9-9s4.038-9 9-9c3.931 0 6.837 2.58 8 6h2c-1.271-5.086-5.698-9-11-9z"
+              />
+            </svg>
+            Ver Código (GitHub)
+          </a>
+        </div>
+      </div>
 
-        <div class="flex flex-wrap justify-between items-start mb-12 border-b border-gray-800 pb-6">
-
-            <div class="mb-6 md:mb-0">
-                <h3 class="text-lg font-semibold text-gray-400 mb-2">Tecnologías Usadas:</h3>
-                <div class="flex flex-wrap gap-2">
-                    <span class="bg-indigo-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md">
-                        Laravel
-                    </span>
-                    <span class="bg-indigo-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md">
-                        Vue.js
-                    </span>
-                    <span class="bg-indigo-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md">
-                        Tailwind CSS
-                    </span>
-                </div>
-            </div>
-
-            <div class="flex gap-4">
-                <a href="https://github.com/MarGhoste/project-repo" target="_blank"
-                    class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg transition duration-200 shadow-lg flex items-center">
-                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M12 0c-6.626 0-12 5.373-12 12s5.373 12 12 12c5.302 0 9.729-3.914 11-9h-2c-1.161 3.42-4.067 6-8 6-4.962 0-9-4.038-9-9s4.038-9 9-9c3.931 0 6.837 2.58 8 6h2c-1.271-5.086-5.698-9-11-9z" />
-                    </svg>
-                    Ver Código (GitHub)
-                </a>
-            </div>
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+        <div class="lg:col-span-2">
+          <h2 class="text-3xl font-bold text-white mb-4">
+            Descripción del Proyecto
+          </h2>
+          <p class="text-gray-300 leading-relaxed whitespace-pre-wrap">
+            Este proyecto consiste en una solución completa de e-commerce
+            diseñada para permitir a pequeñas y medianas empresas (PyMEs)
+            gestionar su inventario, pedidos y ventas en línea de manera
+            eficiente. El desarrollo se centró en la escalabilidad y la
+            facilidad de uso para administradores no técnicos.
+          </p>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
-            <div class="lg:col-span-2">
-                <h2 class="text-3xl font-bold text-white mb-4">Descripción del Proyecto</h2>
-                <p class="text-gray-300 leading-relaxed whitespace-pre-wrap">
-                    Este proyecto consiste en una solución completa de e-commerce diseñada para permitir a pequeñas y medianas empresas (PyMEs) gestionar su inventario, pedidos y ventas en línea de manera eficiente. El desarrollo se centró en la escalabilidad y la facilidad de uso para administradores no técnicos.
-                </p>
-            </div>
+        <div
+          class="lg:col-span-1 bg-gray-800 p-6 rounded-xl shadow-inner border border-gray-700"
+        >
+          <h3 class="text-xl font-semibold text-teal-400 mb-3">
+            Retos Superados:
+          </h3>
+          <p class="text-gray-400 leading-relaxed">
+            El mayor desafío fue optimizar las consultas a la base de datos para
+            el módulo de inventario.
+          </p>
 
-            <div class="lg:col-span-1 bg-gray-800 p-6 rounded-xl shadow-inner border border-gray-700">
-                <h3 class="text-xl font-semibold text-teal-400 mb-3">Retos Superados:</h3>
-                <p class="text-gray-400 leading-relaxed">
-                    El mayor desafío fue optimizar las consultas a la base de datos para el módulo de inventario.
-                </p>
-
-                <h3 class="text-xl font-semibold text-teal-400 mt-6 mb-3">Fragmento de Código Clave:</h3>
-                <pre class="bg-gray-900 p-4 rounded-lg overflow-x-auto text-sm text-green-300"><code>
-
-            </div>
+          <h3 class="text-xl font-semibold text-teal-400 mt-6 mb-3">
+            Fragmento de Código Clave:
+          </h3>
+          <pre
+            class="bg-gray-900 p-4 rounded-lg overflow-x-auto text-sm text-green-300"
+          ><code>
+// Consulta optimizada para productos con cache
+$products = Cache::remember('popular_products', 60*24, function () {
+    return Product::where('is_popular', true)
+        ->with('category')
+        ->limit(10)
+        ->get();
+});
+                </code></pre>
         </div>
+      </div>
 
-        <div class="mt-16 pt-8 border-t border-gray-700">
-            <h2 class="text-3xl font-bold text-white mb-6 text-center">Galería de Capturas</h2>
+      <div class="mt-16 pt-8 border-t border-gray-700">
+        <h2 class="text-3xl font-bold text-white mb-6 text-center">
+          Galería de Capturas
+        </h2>
 
-            <div id="gallery-carousel" class="relative w-full max-w-4xl mx-auto">
-                <div class="overflow-hidden rounded-xl shadow-2xl relative border-4 border-gray-700">
-                    <div id="gallery-track" class="flex transition-transform duration-500 ease-in-out">
-                        
-                        <div class="w-full flex-shrink-0" style="width: 100%;">
-                            <img src="img/proyecto1/prueba1.jpg"
-                                alt="Captura del proyecto 1"
-                                class="w-full h-auto object-contain max-h-[60vh]">
-                        </div>
+        <div id="gallery-carousel" class="relative w-full max-w-4xl mx-auto">
+          <div
+            class="overflow-hidden rounded-xl shadow-2xl relative border-4 border-gray-700"
+          >
+            <div
+              id="gallery-track"
+              class="flex transition-transform duration-500 ease-in-out"
+            >
+              <div class="w-full flex-shrink-0" style="width: 100%">
+                <img
+                  src="img/proyecto4/prueba1.jpg"
+                  alt="Captura del proyecto 1"
+                  class="w-full h-auto object-contain max-h-[60vh]"
+                />
+              </div>
 
-                        <div class="w-full flex-shrink-0" style="width: 100%;">
-                            <img src="img/proyecto1/prueba2.jpg"
-                                alt="Captura del proyecto 2"
-                                class="w-full h-auto object-contain max-h-[60vh]">
-                        </div>
-                        
-                        <div class="w-full flex-shrink-0" style="width: 100%;">
-                            <img src="img/proyecto1/prueba3.jpg"
-                                alt="Captura del proyecto 3"
-                                class="w-full h-auto object-contain max-h-[60vh]">
-                        </div>
-                        <div class="w-full flex-shrink-0" style="width: 100%;">
-                            <img src="img/proyecto1/prueba4.jpg"
-                                alt="Captura del proyecto 3"
-                                class="w-full h-auto object-contain max-h-[60vh]">
-                        </div>
-                        <div class="w-full flex-shrink-0" style="width: 100%;">
-                            <img src="img/proyecto1/prueba5.jpg"
-                                alt="Captura del proyecto 3"
-                                class="w-full h-auto object-contain max-h-[60vh]">
-                        </div>
-                        <div class="w-full flex-shrink-0" style="width: 100%;">
-                            <img src="img/proyecto1/prueba6.jpg"
-                                alt="Captura del proyecto 3"
-                                class="w-full h-auto object-contain max-h-[60vh]">
-                        </div>
+              <div class="w-full flex-shrink-0" style="width: 100%">
+                <img
+                  src="img/proyecto4/prueba2.jpg"
+                  alt="Captura del proyecto 2"
+                  class="w-full h-auto object-contain max-h-[60vh]"
+                />
+              </div>
 
-                        
-                    </div>
-                </div>
-
-                <button id="gallery-prev-btn" type="button"
-                    class="absolute top-1/2 left-4 z-10 p-3 -translate-y-1/2 bg-black/40 hover:bg-black/70 rounded-full transition duration-300 text-white">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-                    </svg>
-                </button>
-                <button id="gallery-next-btn" type="button"
-                    class="absolute top-1/2 right-4 z-10 p-3 -translate-y-1/2 bg-black/40 hover:bg-black/70 rounded-full transition duration-300 text-white">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                    </svg>
-                </button>
-
-                <div id="gallery-indicators"
-                    class="absolute bottom-4 left-0 right-0 flex justify-center space-x-2">
-                    <button data-slide-to="0"
-                        class="w-3 h-3 rounded-full bg-teal-400 transition duration-300 opacity-100"></button>
-                    <button data-slide-to="1"
-                        class="w-3 h-3 rounded-full bg-teal-400 transition duration-300 opacity-50 hover:opacity-75"></button>
-                    <button data-slide-to="2"
-                        class="w-3 h-3 rounded-full bg-teal-400 transition duration-300 opacity-50 hover:opacity-75"></button>
-                </div>
+              <div class="w-full flex-shrink-0" style="width: 100%">
+                <img
+                  src="img/proyecto4/prueba3.jpg"
+                  alt="Captura del proyecto 3"
+                  class="w-full h-auto object-contain max-h-[60vh]"
+                />
+              </div>
+              <div class="w-full flex-shrink-0" style="width: 100%">
+                <img
+                  src="img/proyecto4/prueba4.jpg"
+                  alt="Captura del proyecto 3"
+                  class="w-full h-auto object-contain max-h-[60vh]"
+                />
+              </div>
+              <div class="w-full flex-shrink-0" style="width: 100%">
+                <img
+                  src="img/proyecto4/prueba5.jpg"
+                  alt="Captura del proyecto 3"
+                  class="w-full h-auto object-contain max-h-[60vh]"
+                />
+              </div>
+              <div class="w-full flex-shrink-0" style="width: 100%">
+                <img
+                  src="img/proyecto4/prueba6.jpg"
+                  alt="Captura del proyecto 3"
+                  class="w-full h-auto object-contain max-h-[60vh]"
+                />
+              </div>
             </div>
+          </div>
+
+          <button
+            id="gallery-prev-btn"
+            type="button"
+            class="absolute top-1/2 left-4 z-10 p-3 -translate-y-1/2 bg-black/40 hover:bg-black/70 rounded-full transition duration-300 text-white"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              ></path>
+            </svg>
+          </button>
+          <button
+            id="gallery-next-btn"
+            type="button"
+            class="absolute top-1/2 right-4 z-10 p-3 -translate-y-1/2 bg-black/40 hover:bg-black/70 rounded-full transition duration-300 text-white"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              ></path>
+            </svg>
+          </button>
+
+          <div
+            id="gallery-indicators"
+            class="absolute bottom-4 left-0 right-0 flex justify-center space-x-2"
+          >
+            <button
+              data-slide-to="0"
+              class="w-3 h-3 rounded-full bg-teal-400 transition duration-300 opacity-100"
+            ></button>
+            <button
+              data-slide-to="1"
+              class="w-3 h-3 rounded-full bg-teal-400 transition duration-300 opacity-50 hover:opacity-75"
+            ></button>
+            <button
+              data-slide-to="2"
+              class="w-3 h-3 rounded-full bg-teal-400 transition duration-300 opacity-50 hover:opacity-75"
+            ></button>
+          </div>
         </div>
-        </div>
+      </div>
+    </div>
 
     <script src="js/carousel.js"></script>
-</body>
+  </body>
 </html>

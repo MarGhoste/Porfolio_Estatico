@@ -75,7 +75,14 @@
 
                 <h3 class="text-xl font-semibold text-teal-400 mt-6 mb-3">Fragmento de Código Clave:</h3>
                 <pre class="bg-gray-900 p-4 rounded-lg overflow-x-auto text-sm text-green-300"><code>
-
+// Consulta optimizada para productos con cache
+$products = Cache::remember('popular_products', 60*24, function () {
+    return Product::where('is_popular', true)
+        ->with('category')
+        ->limit(10)
+        ->get();
+});
+                </code></pre>
             </div>
         </div>
 
