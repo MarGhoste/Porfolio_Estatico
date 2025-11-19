@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Detalle del Proyecto | [E-Commerce]</title>
+    <title>Detalle del Proyecto | E-Commerce</title>
     <link rel="icon" type="image/png" href="img/backend.png" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script
@@ -11,15 +11,17 @@
       src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
     ></script>
   </head>
+
   <body class="bg-gray-900 min-h-screen">
     <div class="container mx-auto px-4 py-16 text-white bg-gray-900">
+      <!-- ENCABEZADO -->
       <div class="mb-10 border-b border-gray-700 pb-4">
         <a
           href="index.html"
-          class="text-teal-400 hover:text-teal-300 transition duration-150 flex items-center mb-4"
+          class="inline-flex items-center px-4 py-2 bg-gray-700 hover:bg-gray-600 text-gray-200 text-sm font-medium rounded-md transition-colors duration-200 mb-6"
         >
           <svg
-            class="w-4 h-4 mr-2"
+            class="w-5 h-5 mr-2"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -34,27 +36,51 @@
           </svg>
           Volver al Portafolio
         </a>
-        <h1 class="text-5xl font-extrabold text-white">
+
+        <h1 class="text-5xl font-extrabold text-white text-center">
           Plataforma de E-Commerce
         </h1>
+        <p class="text-gray-400 mt-2 text-lg text-center">
+          Solución full-stack para ventas en línea, con pasarela de pago Stripe,
+          construida con el stack VILT (Vue, Inertia, Laravel, Tailwind).
+        </p>
       </div>
 
+      <!-- VIDEO DEMOSTRATIVO -->
       <div class="mt-8 pt-4 border-t border-gray-700">
-    <h2 class="text-3xl font-bold text-white mb-6">
-        Video Demostrativo
-    </h2>
-    
-    <div class="max-w-2xl mx-auto"> 
-        <video 
-            controls 
-            class="w-full rounded-xl shadow-2xl border border-gray-700" 
-            poster="img/Proyecto2/Ecommerce-01.jpg" >
-            <source src="video/EcommerceVideo.mp4" type="video/mp4"> 
+        <h2
+          class="text-3xl font-bold text-white mb-6 flex items-center gap-3 border-b-2 border-teal-400 pb-2"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-8 w-8 text-teal-400"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
+            ></path>
+          </svg>
+          Video Demostrativo
+        </h2>
+        <div class="max-w-4xl mx-auto">
+          <video
+            controls
+            class="w-full rounded-xl shadow-2xl border border-gray-700"
+            poster="img/Proyecto2/Ecommerce-01.jpg"
+          >
+            <source src="video/EcommerceVideo.mp4" type="video/mp4" />
             Tu navegador no soporta la etiqueta de video.
-        </video>
-    </div>
-    </div>
-<br />
+          </video>
+        </div>
+      </div>
+      <br />
+
+      <!-- TECNOLOGÍAS + GITHUB -->
       <div
         class="flex flex-wrap justify-between items-start mb-12 border-b border-gray-800 pb-6"
       >
@@ -64,40 +90,33 @@
           </h3>
           <div class="flex flex-wrap gap-2">
             <span
-              class="bg-indigo-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md"
+              class="bg-red-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md transition transform hover:scale-105"
+              >Laravel 12</span
             >
-              Laravel 12
-            </span>
             <span
-              class="bg-indigo-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md"
+              class="bg-green-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md transition transform hover:scale-105"
+              >Vue3.js</span
             >
-              Vue3.js
-            </span>
             <span
-              class="bg-indigo-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md"
+              class="bg-sky-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md transition transform hover:scale-105"
+              >PHP 8+</span
             >
-              Tailwind CSS
-            </span>
             <span
-              class="bg-indigo-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md"
+              class="bg-cyan-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md transition transform hover:scale-105"
+              >Tailwind CSS</span
             >
-              MySQL
-            </span>
             <span
-              class="bg-indigo-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md"
+              class="bg-blue-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md transition transform hover:scale-105"
+              >MySQL</span
             >
-              Inertia.js
-            </span>
             <span
-              class="bg-indigo-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md"
+              class="bg-purple-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md transition transform hover:scale-105"
+              >Inertia.js</span
             >
-              Typescript
-            </span>
             <span
-              class="bg-indigo-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md"
+              class="bg-sky-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md transition transform hover:scale-105"
+              >Typescript</span
             >
-              Html5
-            </span>
           </div>
         </div>
 
@@ -105,10 +124,10 @@
           <a
             href="https://github.com/MarGhoste/e-commerce"
             target="_blank"
-            class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg transition duration-200 shadow-lg flex items-center"
+            class="bg-teal-600 hover:bg-teal-500 text-white font-bold py-3 px-6 rounded-lg transition duration-300 shadow-lg hover:shadow-teal-500/50 transform hover:-translate-y-1 flex items-center"
           >
             <svg
-              class="w-5 h-5 mr-2"
+              class="w-6 h-6 mr-2"
               fill="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -122,135 +141,143 @@
         </div>
       </div>
 
-      
-        <div class="lg:col-span-2">
-          <h2 class="text-3xl font-bold text-white mb-4">
+      <!-- DESCRIPCIÓN Y RETOS -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 mb-12">
+        <div
+          class="lg:col-span-2 bg-gray-800 p-6 rounded-xl shadow-inner border border-gray-700 transition duration-300 hover:border-teal-500/50"
+        >
+          <h2
+            class="text-3xl font-bold text-white mb-4 flex items-center gap-3"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-8 w-8 text-teal-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+              ></path>
+            </svg>
             Descripción del Proyecto
           </h2>
-          <p class="text-xl font-semibold mb-4">
-            <strong>Plataforma de E-commerce</strong>
+          <p class="text-gray-300 leading-relaxed mb-6">
             Una plataforma de e-commerce moderna y completa construida con el
-            frontend del stack VILT: Laravel, Inertia.js y Vue.js. Este proyecto
-            proporciona una base sólida para una tienda en línea, con un
-            catálogo de productos, carrito de compras, autenticación de usuarios
-            y un panel de administración.
+            stack VILT:
+            <strong>Vue.js, Inertia.js, Laravel y Tailwind CSS</strong>. Este
+            proyecto proporciona una base sólida para una tienda en línea, con
+            un catálogo de productos, carrito de compras, autenticación de
+            usuarios y un panel de administración.
           </p>
-
-          <div class="mt-8 pt-4 border-t border-gray-300">
-            <h2 class="text-2xl font-bold mb-4">Acerca del Proyecto</h2>
-            <p>
-              Esta aplicación es una demostración de un flujo de trabajo de
-              desarrollo web moderno, integrando un potente
-              <strong>backend en PHP</strong> con un
-              <strong
-                >frontend reactivo de tipo Single-Page Application (SPA)</strong
-              >. Utiliza las mejores herramientas de su clase para proporcionar
-              una experiencia fluida tanto para desarrolladores como para
-              usuarios.
+          <div class="pt-4 border-t border-gray-700">
+            <h3 class="text-xl font-semibold text-white mb-3">
+              ⭐ Características Principales ⭐
+            </h3>
+            <ul class="list-disc ml-6 space-y-2 text-gray-300">
+              <li>
+                <strong>Catálogo de Productos:</strong> Navegación por productos
+                con imágenes, descripciones y precios.
+              </li>
+              <li>
+                <strong>Carrito de Compras:</strong> Funcionalidad completa para
+                agregar, eliminar y actualizar productos.
+              </li>
+              <li>
+                <strong>Autenticación Segura:</strong> Registro e inicio de
+                sesión para usuarios.
+              </li>
+              <li>
+                <strong>Panel de Administración:</strong> Gestión de productos,
+                categorías y pedidos.
+              </li>
+              <li>
+                <strong>Pasarela de Pago:</strong> Integración con Stripe para
+                procesar pagos de forma segura.
+              </li>
+            </ul>
+            <p class="mt-6 text-sm text-gray-400">
+              Este proyecto es un M.V.P. desarrollado en
+              <strong class="text-red-400">8 días (≈60 horas)</strong>.
             </p>
-            <br />
           </div>
-          <h3>&#x2B50; Características Principales &#x2B50;</h3>
-
-          <p>
-            <strong>Catálogo de Productos:</strong><br />
-            Los usuarios pueden navegar por una lista de productos con imágenes,
-            descripciones y precios.
-          </p>
-          <br />
-          <p>
-            <strong>Carrito de Compras:</strong><br />
-            Funcionalidad completa de carrito que permite a los usuarios
-            agregar, eliminar y actualizar productos antes de proceder al pago.
-          </p>
-          <br />
-          <p>
-            <strong>Autenticación de Usuarios:</strong><br />
-            Registro e inicio de sesión seguros para una experiencia
-            personalizada.
-          </p>
-          <br />
-          <p>
-            <strong>Panel de Administración:</strong><br />
-            Interfaz para que los administradores gestionen productos,
-            categorías y pedidos.
-          </p>
-          <br />
-          <p>
-            Este proyecto es un M.V.P. (Producto Mínimo Viable) completo,
-            desarrollado en tan solo
-            <strong class="text-red-600"
-              >8 días con promedio de 5-8 horas al dia (aproximadamente 60
-              horas)</strong
-            >. Demuestra mi capacidad de construir una aplicación full-stack
-            moderna y productiva.
-          </p>
         </div>
-       <div class="mt-8 pt-4 border-t border-gray-700">
-    <h2 class="text-3xl font-bold text-white mb-6">
-        Video Demostrativo
-    </h2>
-    
-    
-    </div>
-        
 
         <div
-          class="lg:col-span-1 bg-gray-800 p-6 rounded-xl shadow-inner border border-gray-700"
+          class="lg:col-span-1 bg-gray-800 p-6 rounded-xl shadow-inner border border-gray-700 h-fit transition duration-300 hover:border-teal-500/50"
         >
           <h3 class="text-xl font-semibold text-teal-400 mb-3">
-            Retos Superados:
+            Retos Técnicos Superados:
           </h3>
           <p class="text-gray-400 leading-relaxed">
             El principal desafío fue la integración de la Pasarela de Pago
-            Stripe a través de Laravel Cashier. Esto requirió gestionar flujos
-            de trabajo complejos del lado del servidor para el manejo seguro de
-            tokens de pago y la correcta sincronización de datos de la
-            aplicación con los servicios de Stripe, garantizando una experiencia
-            de pago 100% segura y conforme a la normativa de la industria..
+            Stripe a través de Laravel Cashier, manejando flujos complejos del
+            servidor para pagos seguros y la creación de órdenes.
           </p>
 
           <h3 class="text-xl font-semibold text-teal-400 mt-6 mb-3">
             Fragmento de Código Clave:
           </h3>
+          <p class="text-gray-400 text-sm mb-2">
+            Manejo de pago con Stripe y creación de orden:
+          </p>
           <pre
             class="bg-gray-900 p-4 rounded-lg overflow-x-auto text-sm text-green-300"
-          ><code>
-// Parte del codigo del controlador que maneja el pago con Stripe
- try {
-            DB::beginTransaction();
+          >
+<code>
+// Parte del controlador que maneja el pago con Stripe
+try {
+  DB::beginTransaction();
 
-            // 1. Definir la URL de Retorno (para métodos de pago que redirigen)
-            $returnUrl = route('order.confirmation', [ 'order' => 'RETURN_ID_PLACEHOLDER'], true);
-       
-            $charge = $user->charge(
-                $totalCents,
-                $request->payment_method_id,
-                ['description' => 'Orden de compra del E-commerce', 'return_url' => $returnUrl,]            );
-            
-                // 2. Crear la Orden de Compra (Usando TUS NOMBRES de columna)
-            $order = Order::create([
-                'user_id' => $user->id,
+  $returnUrl = route('order.confirmation', ['order' => 'RETURN_ID'], true);
 
-                'total_amount' => $totalCents / 100, // Usar total_amount
-                'status' => 'paid', // Usar 'paid' ya que el pago fue exitoso
-                'order_number' => 'ORD-' . time(), // Generar un número de orden simple
-              
-                'shipping_address_line_1' => $request->address, // Asumiendo 'address' del form
-                'shipping_city' => $request->city,
-                'shipping_zip' => $request->zip,                
-                'payment_method' => 'Stripe',
-            ]);$products = Cache::remember('popular_products', 60*24, function () {
-    return Product::where('is_popular', true)
-        ->with('category')
-        ->limit(10)
-        ->get();});
-                </code></pre>
+  $charge = $user->charge(
+      $totalCents,
+      $request->payment_method_id,
+      [
+        'description' => 'Orden del E-commerce',
+        'return_url' => $returnUrl
+      ]
+  );
+
+  $order = Order::create([
+      'user_id' => $user->id,
+      'total_amount' => $totalCents / 100,
+      'status' => 'paid',
+      'order_number' => 'ORD-' . time(),
+      'shipping_address_line_1' => $request->address,
+      'shipping_city' => $request->city,
+      'shipping_zip' => $request->zip,
+      'payment_method' => 'Stripe',
+  ]);
+}
+</code>
+        </pre>
         </div>
       </div>
 
+      <!-- GALERÍA -->
       <div class="mt-16 pt-8 border-t border-gray-700">
-        <h2 class="text-3xl font-bold text-white mb-6 text-center">
+        <h2
+          class="text-3xl font-bold text-white mb-8 text-center flex items-center justify-center gap-3"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-8 w-8 text-teal-400"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+            ></path>
+          </svg>
           Galería de Capturas
         </h2>
 
@@ -261,18 +288,54 @@
             <div
               id="gallery-track"
               class="flex transition-transform duration-500 ease-in-out"
+              x-data="{
+                currentIndex: 0,
+                totalSlides: 7, // Adjust this if you add/remove images
+                goToSlide(index) {
+                    this.currentIndex = index;
+                    this.updateCarousel();
+                },
+                next() {
+                    this.currentIndex = (this.currentIndex + 1) % this.totalSlides;
+                    this.updateCarousel();
+                },
+                prev() {
+                    this.currentIndex = (this.currentIndex - 1 + this.totalSlides) % this.totalSlides;
+                    this.updateCarousel();
+                },
+                updateCarousel() {
+                    const track = document.getElementById('gallery-track');
+                    if (track) {
+                        track.style.transform = `translateX(-${this.currentIndex * 100}%)`;
+                        this.updateIndicators();
+                    }
+                },
+                updateIndicators() {
+                    document.querySelectorAll('#gallery-indicators button').forEach((btn, index) => {
+                        btn.classList.toggle('opacity-100', index === this.currentIndex);
+                        btn.classList.toggle('opacity-50', index !== this.currentIndex);
+                    });
+                }
+            }"
+              x-init="
+                document.getElementById('gallery-next-btn').addEventListener('click', () => next());
+                document.getElementById('gallery-prev-btn').addEventListener('click', () => prev());
+                document.querySelectorAll('#gallery-indicators button').forEach((btn, index) => {
+                    btn.addEventListener('click', () => goToSlide(index));
+                });
+                updateIndicators();
+            "
             >
               <div class="w-full flex-shrink-0" style="width: 100%">
                 <img
                   src="img/proyecto2/Ecommerce-01.jpg"
-                  alt="Captura del proyecto 1"
                   class="w-full h-auto object-contain max-h-[60vh]"
                 />
               </div>
+
               <div class="w-full flex-shrink-0" style="width: 100%">
                 <img
                   src="img/proyecto2/Ecommerce-02.jpg"
-                  alt="Captura del proyecto 1"
                   class="w-full h-auto object-contain max-h-[60vh]"
                 />
               </div>
@@ -280,7 +343,6 @@
               <div class="w-full flex-shrink-0" style="width: 100%">
                 <img
                   src="img/proyecto2/Ecommerce-03.jpg"
-                  alt="Captura del proyecto 2"
                   class="w-full h-auto object-contain max-h-[60vh]"
                 />
               </div>
@@ -288,28 +350,27 @@
               <div class="w-full flex-shrink-0" style="width: 100%">
                 <img
                   src="img/proyecto2/Ecommerce-04.jpg"
-                  alt="Captura del proyecto 3"
                   class="w-full h-auto object-contain max-h-[60vh]"
                 />
               </div>
+
               <div class="w-full flex-shrink-0" style="width: 100%">
                 <img
                   src="img/proyecto2/Ecommerce-05.jpg"
-                  alt="Captura del proyecto 4"
                   class="w-full h-auto object-contain max-h-[60vh]"
                 />
               </div>
+
               <div class="w-full flex-shrink-0" style="width: 100%">
                 <img
                   src="img/proyecto2/Ecommerce-06.jpg"
-                  alt="Captura del proyecto 5"
                   class="w-full h-auto object-contain max-h-[60vh]"
                 />
               </div>
+
               <div class="w-full flex-shrink-0" style="width: 100%">
                 <img
                   src="img/proyecto2/Ecommerce-07.jpg"
-                  alt="Captura del proyecto 6"
                   class="w-full h-auto object-contain max-h-[60vh]"
                 />
               </div>
@@ -326,7 +387,6 @@
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
             >
               <path
                 stroke-linecap="round"
@@ -346,7 +406,6 @@
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
             >
               <path
                 stroke-linecap="round"
@@ -361,24 +420,16 @@
             id="gallery-indicators"
             class="absolute bottom-4 left-0 right-0 flex justify-center space-x-2"
           >
-            <button
-              data-slide-to="0"
-              class="w-3 h-3 rounded-full bg-teal-400 transition duration-300 opacity-100"
-            ></button>
-            <button
-              data-slide-to="1"
-              class="w-3 h-3 rounded-full bg-teal-400 transition duration-300 opacity-50 hover:opacity-75"
-            ></button>
-            <button
-              data-slide-to="2"
-              class="w-3 h-3 rounded-full bg-teal-400 transition duration-300 opacity-50 hover:opacity-75"
-            ></button>
+            <template x-for="(_, index) in totalSlides" :key="index">
+              <button
+                @click="goToSlide(index)"
+                :class="{'opacity-100': index === currentIndex, 'opacity-50 hover:opacity-75': index !== currentIndex}"
+                class="w-3 h-3 rounded-full bg-teal-400 transition duration-300"
+              ></button>
+            </template>
           </div>
         </div>
       </div>
     </div>
-
-    <script src="js/carousel.js"></script>
-    <br />
   </body>
 </html>
