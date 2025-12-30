@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Detalle del Proyecto | Real-Time To-Do App</title>
+    <title>Detalle del Proyecto | Sistema de Reservas Barbería</title>
     <link rel="icon" type="image/png" href="img/backend.png" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script
@@ -11,7 +11,7 @@
       src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
     ></script>
   </head>
-  <body class="bg-gray-900 min-h-screen">
+  <body class="bg-gray-900 min-h-screen font-sans">
     <div class="container mx-auto px-4 py-16 text-white bg-gray-900">
       <div class="mb-10 border-b border-gray-700 pb-4">
         <a
@@ -34,74 +34,113 @@
           </svg>
           Volver al Portafolio
         </a>
-        <h1 class="text-5xl font-extrabold text-white text-center">
-          Real-Time To-Do App
+        <h1
+          class="text-5xl font-extrabold text-white text-center leading-tight"
+        >
+          Reservas — Sistema de Gestión para Barbería
         </h1>
-        <p class="text-gray-400 mt-2 text-lg text-center">
-          Una aplicación de lista de tareas con actualizaciones instantáneas
-          usando Livewire y Echo.
+        <p class="text-gray-400 mt-4 text-lg text-center max-w-3xl mx-auto">
+          Plataforma de alto rendimiento construida con
+          <strong>Laravel 12 e Inertia.js</strong>. Optimiza la agenda de los
+          barberos y permite a los clientes reservar servicios mediante una
+          interfaz fluida en React.
         </p>
       </div>
 
-      <img
-        src="img/proyecto03.jpg"
-        alt="Miniatura de Real-Time To-Do App"
-        class="w-full h-96 object-cover rounded-xl shadow-2xl mb-12"
-      />
+      <!-- VIDEO DEMOSTRATIVO -->
+      <div class="mt-8 pt-4 border-t border-gray-700">
+        <h2
+          class="text-3xl font-bold text-white mb-6 flex items-center gap-3 border-b-2 border-teal-400 pb-2 w-fit"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-8 w-8 text-teal-400"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
+            ></path>
+          </svg>
+          Demo en Acción
+        </h2>
+        <div class="max-w-4xl mx-auto">
+          <video
+            controls
+            preload="metadata"
+            playsinline
+            class="w-full rounded-xl shadow-2xl border border-gray-700"
+            poster="img/proyecto3/Reserva01.jpg"
+          >
+            <source src="video/SistemaReservas.mp4" type="video/mp4" />
+            Tu navegador no soporta la etiqueta de video.
+          </video>
+        </div>
+      </div>
+
+      <br />
 
       <div
         class="flex flex-wrap justify-between items-start mb-12 border-b border-gray-800 pb-6"
       >
         <div class="mb-6 md:mb-0">
           <h3 class="text-lg font-semibold text-gray-400 mb-2">
-            Tecnologías Usadas:
+            Tecnologías Core:
           </h3>
           <div class="flex flex-wrap gap-2">
             <span
-              class="bg-red-500 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md transition transform hover:scale-105"
+              class="bg-red-600 text-white text-sm font-semibold px-4 py-1 rounded-full shadow-md"
+              >Laravel 12</span
             >
-              Livewire
-            </span>
             <span
-              class="bg-pink-600 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md transition transform hover:scale-105"
+              class="bg-pink-600 text-white text-sm font-semibold px-4 py-1 rounded-full shadow-md"
+              >Inertia.js</span
             >
-              Alpine.js
-            </span>
             <span
-              class="bg-gray-500 text-white text-sm font-medium px-4 py-1 rounded-full shadow-md transition transform hover:scale-105"
+              class="bg-blue-500 text-white text-sm font-semibold px-4 py-1 rounded-full shadow-md"
+              >React 18</span
             >
-              Tailwind CSS
-            </span>
+            <span
+              class="bg-orange-500 text-white text-sm font-semibold px-4 py-1 rounded-full shadow-md"
+              >Filament PHP</span
+            >
+            <span
+              class="bg-cyan-600 text-white text-sm font-semibold px-4 py-1 rounded-full shadow-md"
+              >Tailwind CSS</span
+            >
+            <span
+              class="bg-indigo-600 text-white text-sm font-semibold px-4 py-1 rounded-full shadow-md"
+              >MySQL</span
+            >
           </div>
         </div>
 
         <div class="flex gap-4">
           <a
-            href="https://github.com/MarGhoste/project3"
+            href="https://github.com/MarGhoste/Reservas"
             target="_blank"
             class="bg-teal-600 hover:bg-teal-500 text-white font-bold py-3 px-6 rounded-lg transition duration-300 shadow-lg hover:shadow-teal-500/50 transform hover:-translate-y-1 flex items-center"
           >
-            <svg
-              class="w-6 h-6 mr-2"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
               <path
                 d="M12 0c-6.626 0-12 5.373-12 12s5.373 12 12 12c5.302 0 9.729-3.914 11-9h-2c-1.161 3.42-4.067 6-8 6-4.962 0-9-4.038-9-9s4.038-9 9-9c3.931 0 6.837 2.58 8 6h2c-1.271-5.086-5.698-9-11-9z"
               />
             </svg>
-            Ver Código (GitHub)
+            Repositorio GitHub
           </a>
         </div>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
         <div
-          class="lg:col-span-2 bg-gray-800 p-6 rounded-xl shadow-inner border border-gray-700 transition duration-300 hover:border-teal-500/50"
+          class="lg:col-span-2 bg-gray-800 p-8 rounded-xl shadow-inner border border-gray-700 transition duration-300 hover:border-teal-500/50"
         >
           <h2
-            class="text-3xl font-bold text-white mb-4 flex items-center gap-3"
+            class="text-3xl font-bold text-white mb-6 flex items-center gap-3"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -114,52 +153,88 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
-              ></path>
+                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+              />
             </svg>
-            Descripción del Proyecto
+            Resumen del Proyecto
           </h2>
-          <p class="text-gray-300 leading-relaxed whitespace-pre-wrap">
-            Esta es una aplicación de lista de tareas (To-Do) que demuestra el
-            poder de la reactividad en tiempo real del TALL Stack. Las tareas se
-            actualizan instantáneamente para todos los usuarios conectados
-            gracias a la combinación de Laravel, Livewire, Alpine.js y la
-            difusión de eventos con Laravel Echo.
-          </p>
+          <div class="text-gray-300 space-y-4 leading-relaxed">
+            <p>
+              Este sistema automatiza el proceso de citas para negocios de
+              barbería. Los clientes pueden explorar un catálogo de servicios,
+              elegir a su barbero de preferencia, reservar su cita y ver
+              únicamente los horarios disponibles calculados en tiempo real
+              según la duración de cada servicio.
+            </p>
+            <p>
+              Para la administración, implementé un panel con
+              <strong>Filament PHP</strong> que permite gestionar el inventario
+              de servicios, configurar los horarios de trabajo de cada empleado
+              y bloquear días de ausencia de forma intuitiva.
+            </p>
+            <ul class="list-disc list-inside space-y-2 text-teal-300">
+              <li>Gestión de roles y permisos con Spatie.</li>
+              <li>Interfaz SPA fluida gracias a Inertia + React.</li>
+              <li>Sistema de indisponibilidades para barberos.</li>
+              <li>Notificaciones y validaciones de solapamiento de citas.</li>
+            </ul>
+          </div>
         </div>
 
         <div
-          class="lg:col-span-1 bg-gray-800 p-6 rounded-xl shadow-inner border border-gray-700 h-fit transition duration-300 hover:border-teal-500/50"
+          class="lg:col-span-1 bg-gray-800 p-8 rounded-xl shadow-inner border border-gray-700 h-fit transition duration-300 hover:border-teal-500/50"
         >
           <h3 class="text-xl font-semibold text-teal-400 mb-3">
-            Retos Superados:
+            Retos Técnicos:
           </h3>
-          <p class="text-gray-400 leading-relaxed">
-            El principal reto fue configurar Laravel Echo y Pusher para
-            transmitir eventos de manera eficiente y segura, asegurando que las
-            actualizaciones de la UI fueran instantáneas y solo para los canales
-            correctos.
+          <p class="text-gray-400 leading-relaxed mb-6">
+            Este método es el corazón de la gestión de tiempo del profesional.
+            Apliqué un enfoque de 'Defensive Programming' (Programación
+            Defensiva) donde primero validamos el formato, luego verificamos la
+            lógica de negocio (no duplicados) y finalmente persistimos el dato.
+            Esto garantiza que el motor de reservas siempre trabaje sobre una
+            base de datos limpia y veraz.
           </p>
 
-          <h3 class="text-xl font-semibold text-teal-400 mt-6 mb-3">
-            Fragmento de Código Clave:
+          <h3 class="text-xl font-semibold text-teal-400 mb-3">
+            Lógica de Backend:
           </h3>
           <pre
-            class="bg-gray-900 p-4 rounded-lg overflow-x-auto text-sm text-green-300"
+            class="bg-gray-900 p-4 rounded-lg overflow-x-auto text-sm text-green-300 border border-gray-700"
           ><code>
-// Disparar evento al crear una tarea
-TaskCreated::dispatch($task);
+ public function storeDisponibilidad(Request $request)
+    {
+        $barberId = auth()->id();
 
-// Escuchar evento en Livewire
-#[On('echo:tasks,TaskCreated')]
-public function onTaskCreated()
-{
-    $this->refreshTasks();
-}
-                </code></pre>
+        $validated = $request->validate([
+            // La fecha debe ser hoy o en el futuro
+            'fecha' => ['required', 'date', 'after_or_equal:today'],
+            'motivo' => ['required', 'string', 'max:255'],
+        ]);
+
+        // Prevención de duplicados para el mismo día
+        $exists = Disponibilidad::where('barbero_id', $barberId)
+            ->where('fecha', $validated['fecha'])
+            ->exists();
+
+        if ($exists) {
+            return back()->withErrors(['fecha' => 'Ya existe una indisponibilidad registrada para este día.']);
+        }
+
+        Disponibilidad::create([
+            'barbero_id' => $barberId,
+            'fecha' => $validated['fecha'],
+            'motivo' => $validated['motivo'],
+        ]);
+
+        return redirect()->route('barbero.disponibilidad')
+            ->with('success', 'Día no disponible registrado exitosamente.');
+    }
+          </code></pre>
         </div>
       </div>
 
+      <!-- GALERÍA -->
       <div class="mt-16 pt-8 border-t border-gray-700">
         <h2
           class="text-3xl font-bold text-white mb-8 text-center flex items-center justify-center gap-3"
@@ -176,162 +251,97 @@ public function onTaskCreated()
               stroke-linejoin="round"
               stroke-width="2"
               d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-            ></path>
+            />
           </svg>
           Galería de Capturas
         </h2>
 
-        <div id="gallery-carousel" class="relative w-full max-w-4xl mx-auto">
+        <div
+          id="gallery-carousel"
+          class="relative w-full max-w-4xl mx-auto"
+          x-data="{ 
+            currentIndex: 0, 
+            totalSlides: 16,
+            next() { this.currentIndex = (this.currentIndex + 1) % this.totalSlides },
+            prev() { this.currentIndex = (this.currentIndex - 1 + this.totalSlides) % this.totalSlides }
+        }"
+        >
           <div
             class="overflow-hidden rounded-xl shadow-2xl relative border-4 border-gray-700"
           >
             <div
-              id="gallery-track"
               class="flex transition-transform duration-500 ease-in-out"
-              x-data="{
-                currentIndex: 0,
-                totalSlides: 6, // Ajusta este número
-                goToSlide(index) {
-                    this.currentIndex = index;
-                    this.updateCarousel();
-                },
-                next() {
-                    this.currentIndex = (this.currentIndex + 1) % this.totalSlides;
-                    this.updateCarousel();
-                },
-                prev() {
-                    this.currentIndex = (this.currentIndex - 1 + this.totalSlides) % this.totalSlides;
-                    this.updateCarousel();
-                },
-                updateCarousel() {
-                    const track = document.getElementById('gallery-track');
-                    if (track) {
-                        track.style.transform = `translateX(-${this.currentIndex * 100}%)`;
-                        this.updateIndicators();
-                    }
-                },
-                updateIndicators() {
-                    document.querySelectorAll('#gallery-indicators button').forEach((btn, index) => {
-                        btn.classList.toggle('opacity-100', index === this.currentIndex);
-                        btn.classList.toggle('opacity-50', index !== this.currentIndex);
-                    });
-                }
-            }"
-              x-init="
-                document.getElementById('gallery-next-btn').addEventListener('click', () => next());
-                document.getElementById('gallery-prev-btn').addEventListener('click', () => prev());
-                document.querySelectorAll('#gallery-indicators button').forEach((btn, index) => {
-                    btn.addEventListener('click', () => goToSlide(index));
-                });
-                updateIndicators();
-            "
+              :style="`transform: translateX(-${currentIndex * 100}%)`"
             >
-              <div class="w-full flex-shrink-0" style="width: 100%">
-                <img
-                  src="img/proyecto3/prueba1.jpg"
-                  alt="Captura del proyecto 1"
-                  class="w-full h-auto object-contain max-h-[60vh]"
-                />
-              </div>
-
-              <div class="w-full flex-shrink-0" style="width: 100%">
-                <img
-                  src="img/proyecto3/prueba2.jpg"
-                  alt="Captura del proyecto 2"
-                  class="w-full h-auto object-contain max-h-[60vh]"
-                />
-              </div>
-
-              <div class="w-full flex-shrink-0" style="width: 100%">
-                <img
-                  src="img/proyecto3/prueba3.jpg"
-                  alt="Captura del proyecto 3"
-                  class="w-full h-auto object-contain max-h-[60vh]"
-                />
-              </div>
-              <div class="w-full flex-shrink-0" style="width: 100%">
-                <img
-                  src="img/proyecto3/prueba4.jpg"
-                  alt="Captura del proyecto 3"
-                  class="w-full h-auto object-contain max-h-[60vh]"
-                />
-              </div>
-              <div class="w-full flex-shrink-0" style="width: 100%">
-                <img
-                  src="img/proyecto3/prueba5.jpg"
-                  alt="Captura del proyecto 3"
-                  class="w-full h-auto object-contain max-h-[60vh]"
-                />
-              </div>
-              <div class="w-full flex-shrink-0" style="width: 100%">
-                <img
-                  src="img/proyecto3/prueba6.jpg"
-                  alt="Captura del proyecto 3"
-                  class="w-full h-auto object-contain max-h-[60vh]"
-                />
-              </div>
+              <!-- Renderizar imágenes -->
+              <template x-for="i in totalSlides" :key="i">
+                <div class="w-full flex-shrink-0">
+                  <img
+                    :src="`img/proyecto3/Reserva${i.toString().padStart(2, '0')}.jpg`"
+                    class="w-full h-auto object-contain max-h-[60vh] bg-gray-900"
+                    :alt="`Slide ${i}`"
+                  />
+                </div>
+              </template>
             </div>
           </div>
 
+          <!-- Controles -->
           <button
-            id="gallery-prev-btn"
-            type="button"
-            class="absolute top-1/2 left-4 z-10 p-3 -translate-y-1/2 bg-black/40 hover:bg-black/70 rounded-full transition duration-300 text-white"
+            @click="prev()"
+            class="absolute top-1/2 left-4 -translate-y-1/2 p-3 bg-black/60 hover:bg-teal-500 rounded-full text-white transition-all"
           >
             <svg
               class="w-6 h-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
             >
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
                 d="M15 19l-7-7 7-7"
-              ></path>
+              />
             </svg>
           </button>
           <button
-            id="gallery-next-btn"
-            type="button"
-            class="absolute top-1/2 right-4 z-10 p-3 -translate-y-1/2 bg-black/40 hover:bg-black/70 rounded-full transition duration-300 text-white"
+            @click="next()"
+            class="absolute top-1/2 right-4 -translate-y-1/2 p-3 bg-black/60 hover:bg-teal-500 rounded-full text-white transition-all"
           >
             <svg
               class="w-6 h-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
             >
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
                 d="M9 5l7 7-7 7"
-              ></path>
+              />
             </svg>
           </button>
 
-          <div
-            id="gallery-indicators"
-            class="absolute bottom-4 left-0 right-0 flex justify-center space-x-2"
-          >
-            <template x-for="(_, index) in totalSlides" :key="index">
+          <!-- Indicadores -->
+          <div class="mt-4 flex justify-center gap-2 overflow-x-auto py-2">
+            <template x-for="i in totalSlides" :key="i">
               <button
-                @click="goToSlide(index)"
-                :class="{'opacity-100': index === currentIndex, 'opacity-50 hover:opacity-75': index !== currentIndex}"
-                class="w-3 h-3 rounded-full bg-teal-400 transition duration-300"
+                @click="currentIndex = i-1"
+                :class="currentIndex === i-1 ? 'bg-teal-400 w-6' : 'bg-gray-600 w-2'"
+                class="h-2 rounded-full transition-all duration-300"
               ></button>
             </template>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Navegación Fija -->
     <a
       href="proyecto2.html"
-      class="fixed bottom-8 left-8 bg-teal-600 hover:bg-teal-500 text-white font-bold py-3 px-6 rounded-full shadow-2xl transition duration-300 transform hover:scale-105 hover:-translate-y-1 z-50 flex items-center gap-2 border border-teal-400/30 backdrop-blur-sm"
+      class="fixed bottom-8 left-8 bg-gray-800 hover:bg-teal-600 text-white font-bold py-3 px-6 rounded-full shadow-2xl transition duration-300 transform hover:-translate-y-1 z-50 flex items-center gap-2 border border-gray-700"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -347,13 +357,13 @@ public function onTaskCreated()
           d="M11 17l-5-5m0 0l5-5m-5 5h12"
         />
       </svg>
-      Proyecto Anterior
+      Anterior
     </a>
     <a
       href="proyecto4.html"
-      class="fixed bottom-8 right-8 bg-teal-600 hover:bg-teal-500 text-white font-bold py-3 px-6 rounded-full shadow-2xl transition duration-300 transform hover:scale-105 hover:-translate-y-1 z-50 flex items-center gap-2 border border-teal-400/30 backdrop-blur-sm"
+      class="fixed bottom-8 right-8 bg-teal-600 hover:bg-teal-500 text-white font-bold py-3 px-6 rounded-full shadow-2xl transition duration-300 transform hover:-translate-y-1 z-50 flex items-center gap-2 border border-teal-400/30"
     >
-      Siguiente Proyecto
+      Siguiente
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-5 w-5"
